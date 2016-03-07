@@ -5,10 +5,12 @@ using System.Text;
 
 namespace ConsoleApplication1
 {
-  class Program
+  static class Program
   {
     static void Main(string[] args)
     {
+      Console.WriteLine("Press any key for exit ...");
+      Console.ReadKey();
     }
   }
 }
